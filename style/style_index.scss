@@ -8,8 +8,10 @@ $color-texto-dos: #BBE1FA;
     font-size: 14px;
     font-family: 'Calisto MT';
     font-style: italic;
-    a{
+    a:link, a:visited, a:active {
+        text-decoration:none;
         cursor: pointer;
+        color: white;
     }
 }
 
