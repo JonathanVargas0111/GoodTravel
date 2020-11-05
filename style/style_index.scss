@@ -41,7 +41,6 @@ header{
         background-image: url('../resource/images/imgHeader.jpg');    
         background-size: cover;
         background-position: center;
-        height: 25vh;
         padding: 25px 10px;
         color: $color-texto-uno;
         h1{
@@ -57,7 +56,6 @@ header{
 
 main{
     .frase{
-        height: 25vh;
         background-color: #1B262C;
         padding: 0px 30px;
         display: flex;
@@ -65,6 +63,8 @@ main{
         align-items: center;
         color: $color-texto-dos;
         text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
         h2{
             font-size: 1.27rem
         }
@@ -113,7 +113,6 @@ footer{
 @media (min-width: 480px) {    
     header{   
         div{
-            height: 25vh;
             padding-left: 5%;
             h1{               
                 margin-top: 6%;
@@ -124,8 +123,8 @@ footer{
     }
     main{
         .frase{
-            height: 20vh;
-            padding: 0px 30px;            
+            //height: 50vh;
+            padding: 30px 30px;            
             h2{
                 font-size: 1.8rem;
             }
@@ -154,7 +153,7 @@ footer{
     }
     main{
         .frase{
-            height: 25vh;
+            //height: 25vh;
         }
     }
     header{   
@@ -179,26 +178,25 @@ footer{
     }
     header{   
         div{
-            height: 50vh;
             padding-right: 10%;
             padding-left: 10%;
+            height: 400px;
             h1{              
-                margin-top: 20%; 
+                margin-top: 60px; 
                 width: 65%;
-                font-size:4.5rem;    
+                font-size:4rem;    
             }
             p{   
                 display: block;             
                 width: 25%;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 float: right;
             }
         } 
     }
     main{
         .frase{
-            height: 40vh;
-            padding: 0px 10%;            
+            //height: 40vh;            
             h2{
                 font-size: 2.5rem;
             }
@@ -244,15 +242,14 @@ footer{
 @media (min-width: 1200px) { 
     header{   
         div{
-            height: 70vh;
+            height: 800px;
             h1{      
                 margin-top: 200px;          
                 width: 65%;
-                font-size:8vw; 
-                font-size:6vw;     
+                font-size:4.5rem;     
             }
             p{      
-                font-size: 1.5rem;
+                font-size: 1.3rem;
             }
         } 
     }
@@ -265,7 +262,15 @@ footer{
 @media (min-width: 1400px) { 
     header{   
         div{
-            height: 100vh;            
+            h1{      
+                margin-top: 80px;          
+                width: 80%;
+                font-size:7rem;     
+            }
+            p{      
+                width: 20%;
+                font-size: 1rem;
+            }
         } 
-    }   
+    }  
 }
