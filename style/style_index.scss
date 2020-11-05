@@ -19,7 +19,7 @@ body{
 }
 nav{
     div{        
-        padding: 0px 10px;
+        padding: 0px 5%;
         position: fixed;
         width: 100%;
         padding-top: 5px;        
@@ -39,8 +39,8 @@ header{
         background-image: url('../resource/images/imgHeader.jpg');    
         background-size: cover;
         background-position: center;
-        height: 35vh;
-        padding: 10px;
+        height: 25vh;
+        padding: 25px 10px;
         color: $color-texto-uno;
         h1{
             margin-top: 12%;
@@ -59,12 +59,12 @@ main{
         background-color: #1B262C;
         padding: 0px 30px;
         display: flex;
+        justify-content: center;
         align-items: center;
         color: $color-texto-dos;
         text-align: center;
-        justify-content: center;
         h2{
-            font-size: 1.9rem
+            font-size: 1.27rem
         }
     }
     .lugaresVisitar{
@@ -76,16 +76,16 @@ main{
         background-position: center;
         height: auto;
         color: $color-texto-uno;
-        ///s      top right bottom left
-        padding: 20% 10px 10px 10px ;
+        ///      top right bottom left
+        padding: 30% 10px 25px 10px ;
             a{
                 cursor: pointer;
             }
             h2{
-                font-size: 4rem;
+                font-size: 2.5rem;
             }
             p{
-                font-size: 1.5rem;
+                font-size: 1rem;
             }        
         }
         .lugar1{
@@ -108,44 +108,34 @@ footer{
     font-weight: 900;
 }
 
-@media (min-width: 480px) {
-    nav{
-        div{        
-            padding: 0px 10px;
-            padding-top: 5px;  
-            a{
-                font-size: 3rem;
-            }        
-        }    
-    }
+@media (min-width: 480px) {    
     header{   
         div{
-            height: 32vh;
-            h1{                
-                max-width: 80%;
-                font-size:11vw;                
+            height: 25vh;
+            padding-left: 5%;
+            h1{               
+                margin-top: 6%;
+                max-width: 50%;
+                font-size: 7.5vw;              
             }
         } 
     }
     main{
         .frase{
-            height: 25vh;
+            height: 20vh;
             padding: 0px 30px;            
             h2{
-                font-size: 7vw;
+                font-size: 1.8rem;
             }
         }
         .lugaresVisitar{            
             div{ 
-            padding: 20% 20px 10px 20px ;
-                a{
-                    cursor: pointer;
-                }
+                padding-left: 30px;
                 h2{
-                    font-size:12vw;
+                    font-size:3rem;
                 }
                 p{
-                    font-size: 5vw;
+                    font-size: 1.2rem;
                 }        
             }          
         }    
@@ -154,113 +144,93 @@ footer{
 
 @media (min-width: 768px) {
     nav{
-        div{        
-            padding: 0px 5%;
-            padding-top: 5px;  
+        div{     
             a{
-                font-size: 3rem;
+                font-size: 4rem;
             }                   
         }    
     }
-    header{   
-        div{
-            height: 60vh;
-            padding-left: 5%;
-            h1{                
-                max-width: 80%;
-                font-size:10vw;                
-            }
-            p{
-                margin-top: 40px;
-                display: block;
-                width: 50%;
-                font-size: 2vw;
-            }
-        } 
-    }
     main{
         .frase{
-            height: 50vh;
-            padding: 0px 30px;            
-            h2{
-                font-size: 6.3vw;
-            }
+            height: 25vh;
         }
-        .lugaresVisitar{            
-            div{ 
-            padding: 20% 5% 5% 5% ;                
-                h2{
-                    font-size:12vw;
-                }
-                p{
-                    font-size: 5vw;
-                }        
-            }          
-        }    
+    }
+    header{   
+        div{
+            h1{
+                margin-top: 50px;
+                font-size: 4rem;
+            }
+            
+        } 
     }
 }
 
 @media (min-width: 992px) {    
     nav{
         div{        
-            padding: 0px 5%;
-            padding-top: 5px;          
+            padding: 0px 5%;         
             a{
-                font-size: 2rem;
+                font-size: 4rem;
             }                   
         }    
     }
     header{   
         div{
-            height: 70vh;
-            padding-left: 5%;
+            height: 50vh;
             padding-right: 10%;
-            padding-left: 12%;
-            h1{                
-                max-width: 80%;
-                font-size:10vw;                
+            padding-left: 10%;
+            h1{              
+                margin-top: 20%; 
+                width: 65%;
+                font-size:4.5rem;    
             }
-            p{                
-                width: 35%;
-                font-size: 1.6vw;
+            p{   
+                display: block;             
+                width: 25%;
+                font-size: 1.2rem;
                 float: right;
-                margin-top: 0;
-                
             }
         } 
     }
     main{
         .frase{
-            height: 50vh;
+            height: 40vh;
             padding: 0px 10%;            
             h2{
-                font-size: 2.8vw;
+                font-size: 2.5rem;
             }
         }
-        .lugaresVisitar{            
+        .lugaresVisitar{                   
             div{ 
-                text-align: center;
-                align-items: center;             
-                h2{
-                    font-size:4vw;
-                    margin-bottom: 40px;
-                }
+                padding: 10px;
+                padding: 0px 5%;
+                padding-top: 3%;
+                padding-bottom: 2%;
+                a{
+                    text-align: center;                   
+                    h2{
+                        margin-top: 10%;
+                        font-size: 5vw;
+                    }
+                }               
                 .btn-ver-mas{
+                    display: block;
                     text-align: center;
-                    display:inline-block;
-                    font-size: 1.2rem;
-                    border: 2px white solid;
-                    padding: 8px;
-                    font-weight: 900;
-                    margin: auto;
-                    cursor: pointer;   
-                    text-shadow: 0 0 2px #00004a;
-                }  
+                    margin-top: 20px;
+                    a{
+                        display: inline;
+                        border: white solid 3px;
+                        padding: 8px;
+                        font-size: 2rem;
+                    }
+                }
                 p{
+                    display: block;
                     font-size: 2vw;
-                    margin-top: 40px;
-                    float: left;
-                }     
+                    margin-top: 10%;
+                    margin-bottom:15px ;
+                }
             }          
         }    
     }
@@ -268,51 +238,32 @@ footer{
         font-size: 3rem;
     }
 }
-@media (min-width: 1200px) {
-    nav{
-        div{        
-            padding: 0px 5%;
-            padding-top: 5px;          
-            a{
-                font-size: 2rem;
-            }                   
-        }    
-    }
+
+@media (min-width: 1200px) { 
     header{   
         div{
             height: 70vh;
-            h1{                
-                max-width: 60%;
-                font-size:7vw;                
+            h1{      
+                margin-top: 200px;          
+                width: 65%;
+                font-size:8vw; 
+                font-size:6vw;     
             }
-            p{                
-                width: 20%;
-                font-size: 1.2vw;                
+            p{      
+                font-size: 1.5rem;
             }
         } 
+    }
+    footer{
+        p{
+            font-size: 1.2rem;
+        }
     }
 }
-@media (min-width: 1400px) {
-    nav{
-        div{        
-            padding: 0px 5%;
-            padding-top: 5px;          
-            a{
-                font-size: 2rem;
-            }                   
-        }    
-    }
+@media (min-width: 1400px) { 
     header{   
         div{
-            height: 100vh;
-            h1{                
-                max-width: 60%;
-                font-size:7vw;                
-            }
-            p{                
-                width: 20%;
-                font-size: 1.2vw;                
-            }
+            height: 100vh;            
         } 
-    }
+    }   
 }
