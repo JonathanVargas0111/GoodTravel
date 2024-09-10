@@ -23,19 +23,35 @@ El proyecto **GoodTravel** consiste en una página web que presenta tres destino
 Estructura del Proyecto
 El proyecto sigue una estructura simple de archivos y carpetas:
 
-goodtravel/
-│
-├── index.html                # Página principal con los destinos
-├── publicaciones/
-│   ├── publicacion1.html      # Página de detalles del primer destino (Alemania)
-│   ├── publicacion2.html      # Página de detalles del segundo destino (Islandia)
-│   └── publicacion3.html      # Página de detalles del tercer destino (Noruega)
-│
-├── style/
-│   └── style_index.css        # Estilos CSS para la página principal
-│
-└── assets/
-    └── images/                # Carpeta que contiene las imágenes de los destinos
+```
+└── 📁GoodTravel    
+    └── 📁publicaciones
+        └── publicacion1.html
+        └── publicacion2.html
+        └── publicacion3.html  
+    └── 📁resource
+        └── 📁images
+            └── 📁lugar1
+                └── lugar1img1.jpg
+                └── lugar1img2.jpg
+                └── lugar1img3.jpg
+            └── 📁lugar2
+                └── lugar2img1.jpg
+                └── lugar2img2.jpg
+                └── lugar2img3.jpg
+            └── 📁lugar3
+                └── lugar3Img1.jpg
+                └── lugar3Img2.jpg
+                └── lugar3Img3.jpg
+            └── imgHeader.jpg
+    └── 📁style
+        └── style_index.css
+        └── style_index.min.css
+        └── style_index.scss
+        └── style_publicacion.css
+    └── Index.html
+    └── README.md
+```
 
 ## **Uso**
 
